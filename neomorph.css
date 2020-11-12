@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 250px, 250px;
+  justify-content: center;
+  padding: 30px;
+  padding-left: 14%;
+  background:#FFFFF;
+}
+.neumorphism-1 {
+  max-height: 250px;
+  max-width: 250px;
+  background: #FAF5EF;
+  border-radius: 5px;
+  box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px rgba(94, 104, 121, 0.945);
+  opacity: 0.7;
+}
+.neumorphism-2 {
+  max-height: 250px;
+  max-width: 250px;
+  background: #FAF5EF;
+  border-radius: 5px;
+  box-shadow: inset -3px -3px 7px #ffffffb0,
+    inset 3px 3px 5px rgba(94, 104, 121, 0.692);
+  opacity: 0.7;
+}
+.neumorphism-3 {
+  max-height: 250px;
+  max-width: 250px;
+  background: #FAF5EF;
+  border-radius: 5px;
+  box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px rgba(94, 104, 121, 0.945);
+  opacity: 0.7;
+}
+.neumorphism-4 {
+  height: 250px;
+  max-width: 250px;
+  background: #FAF5EF;
+  border-radius: 5px;
+  box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px rgba(94, 104, 121, 0.945);
+  opacity: 0.7;
+}
+.neumorphism-5 {
+  height: 250px;
+  max-width: 250px;
+  background: #FAF5EF;
+  border-radius: 5px;
+  box-shadow: inset -3px -3px 7px #ffffffb0,
+    inset 3px 3px 5px rgba(94, 104, 121, 0.692);
+  opacity: 0.7;
+}
+.neumorphism-6 {
+  height: 250px;
+  max-width: 250px;
+  background: #FAF5EF;
+  border-radius: 5px;
+  box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px rgba(94, 104, 121, 0.945);
+  opacity: 0.7;
+}
+
+.neumorphism-1:hover {
+  opacity: 1;
+  background: grey;
+}
+.neumorphism-2:hover {
+  opacity: 1;
+  background: grey;
+}
+.neumorphism-3:hover {
+  opacity: 1;
+  background: grey;
+}
+.neumorphism-4:hover {
+  opacity: 1;
+  background: grey;
+}
+.neumorphism-5:hover {
+  opacity: 1;
+  background: grey;
+}
+.neumorphism-6:hover {
+  opacity: 1;
+  background: grey;
+}
+
+/* ********************* */
+/* This Code is for only the floating card in right bottom corner */
+/* ********************** */
+p {
+  font-family: poiret-one,sans-serif;
+font-weight: 900;
+font-style: normal;
+ color: #DD545B;
+  text-transform: capitalize;
+  overflow: hidden;
+  font-size: 80px;
+  animation-name: colorchange;
+  animation-duration: 4s;
+  -webkit-animation-name: colorchange;
+  -webkit-animation-duration: 4s;
+  -moz-animation-name: colorchange;
+  -moz-animation-duration: 4s;
+}
+@keyframes colorchange {
+  0% {
+    width: 0ch;
+  }
+  100% {
+    width: 4ch;
+  }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+header {
+  width: 100%;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  font-weight: bolder;
+}
+
+img {
+  background-size: contain;
+  height: 230px;
+  width: 230px;
+}
+.left {
+  display: flex;
+  justify-content: space-around;
+  height:15vh;
+  width: 100%;
+  background-color:#EBCCC3
+}
+.left>ul>li{ display: inline-block;
+  margin-right:100px;
+  margin-top:10px;;
+  padding:20px;
+  max-width:250px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  
+      text-decoration: none;
+  border-radius:10px;
+  color:#000000;
+background-color:#B2BEB5;
+opacity:0.5;
+animation-name: colorchange;
+  animation-duration: 4s;
+  -webkit-animation-name: colorchange;
+  -webkit-animation-duration: 4s;
+  -moz-animation-name: colorchange;
+  -moz-animation-duration: 4s;
+}
+.left>ul>li:hover {
+  opacity:1;}
+  
+  .left>ul>img{height: 25vh;
+  width:200px;
+position: absolute;;
+top:-65px;
+left:-25px;
+margin-right:10px;}
